@@ -1,0 +1,9 @@
+services:
+  koworking-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - FASTAPI_PORT=${FASTAPI_PORT}
+    ports:
+      - ${FASTAPI_PORT}:${FASTAPI_PORT}
