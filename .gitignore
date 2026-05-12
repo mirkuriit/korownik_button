@@ -218,3 +218,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+clients/button_client/secrets.h
+clients/display_client/secrets.h
